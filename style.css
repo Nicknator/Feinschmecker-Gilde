@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+}
+
+
+
+.aot {
+    /* height: 100vh; */  /* entfernen oder auf min-height setzen */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* oben ausrichten statt zentrieren */
+    padding-top: 160px; /* Abstand zum Header */
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+
+
+header img {
+    width: 100px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.navLink {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    
+}
+
+.navLink:hover {
+    color: rgb(24, 140, 32);
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* Css Klassen von rezept.html */
+
+.rezept-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rezept-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.rezept-text {
+    text-align: left;
+}
+
+.rezept-text ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.rezept-text h2 {
+    color: #2a7b2a;
+}
+
+
+.zubereitungszeit {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2a7b2a;
+}
+
+
+p {
+    margin-bottom: 20px; /* Abstand zwischen den Schritten */
+    line-height: 1.6;    /* Zeilenhöhe für bessere Lesbarkeit */
+}
+
+
+/* Css Klassen von rezept.html */
+
+
+
+
+
+
+
+
+
+.rezept-card {
+    display: flex;
+    align-items: flex-start; /* Bild und Text oben ausrichten */
+    gap: 20px;               /* Abstand zwischen Bild und Text */
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.rezept-card img.gericht-bild {
+    width: 200px;           /* Bild kleiner machen */
+    height: auto;
+    border-radius: 12px;
+}
+
+.rezept-info {
+    flex: 1;                /* Textbereich nimmt restliche Breite ein */
+}
+
+.rezept-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2a7b2a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.rezept-button:hover {
+    background-color: #1f5c1f;
+}
+
+
+
+
+
+
+/* .fotter{
+
+} */
+
+
+
+
+
+
+
